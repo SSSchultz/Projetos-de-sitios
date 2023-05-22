@@ -1,0 +1,116 @@
+.um {
+    margin: auto;
+    background-color: red;
+    width: 90%;
+    height: 40%;
+    margin-top: 5%;
+}
+
+.dois {
+    background-color: rgb(255, 251, 3);
+    width: 50%;
+    height: 100%;
+    float: right;
+}
+
+.tres {
+    background-color: rgb(0, 17, 255);
+    width: 50%;
+    height: 100%;
+}
+
+.quatro {
+    position: relative;
+    margin: auto;
+    background-color: red;
+    width: 90%;
+    height: 40%;
+    margin-top: 5%;
+}
+
+.cinco {
+    background-color: rgb(255, 251, 3);
+    width: 50%;
+    height: 50%;
+    float: left;
+}
+
+.seis {
+    background-color: rgb(0, 17, 255);
+    width: 50%;
+    height: 100%;
+    float: right;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1;
+}
+.sete {
+    background-color: rgb(90, 233, 7);
+    width: 50%;
+    height: 50%;
+    float: left, bottom;
+}
+
+.oito {
+    position: relative;
+    margin: auto;
+    background-color: red;
+    width: 90%;
+    height: 40%;
+    margin-top: 5%;
+}
+
+.nove {
+    background-color: rgb(255, 251, 3);
+    width: 50%;
+    height: 50%;
+    float: left;
+}
+.dez {
+    background-color: rgb(90, 233, 7);
+    width: 50%;
+    height: 50%;
+    float: left, bottom;
+}
+.onze {
+    background-color: rgb(0, 17, 255);
+    width: 25%;
+    height: 50%;
+    float: right, top;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1;
+}
+
+.doze {
+    background-color: rgb(224, 225, 230);
+    width: 25%;
+    height: 50%;
+    float: left, top;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1;
+}
+.treze {
+    background-color: rgb(12, 12, 12);
+    width: 25%;
+    height: 50%;
+    float: right, bottom;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1;
+}
+.quatorze {
+    background-color: rgb(255, 44, 255);
+    width: 25%;
+    height: 50%;
+    float: right, bottom;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1;
+}

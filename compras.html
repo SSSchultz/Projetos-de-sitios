@@ -1,0 +1,85 @@
+<html>
+
+<body style="background-color: #BBBBBB;">
+    <form name="form-compras" method="post" action="#" autocomplete="on">
+        <fieldset style="height: 35%; width: 22%;">
+            <legend>Compras</legend>
+            <table border="0" cellspacing="0" style="width: 95%;">
+
+                <tr>
+                    <th style="text-align: center;">
+                        <b>
+                            Produtos
+                        </b>
+                    </th>
+                    <td style="text-align: center;">
+                        <b>
+                            Lista de compras
+                        </b>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="width: 60%; text-align: center;">
+                        <p>
+                            <br />
+                            <select id="marcas" name="marcas">
+                                <option value="Aquários" readonly>Aquario</option>
+                                <option value="Aquário 43L">Aquário 43L</option>
+                                <option value="Aquário 84L">Aquário 84L</option>
+                            </select>
+                            <button type="button">
+                                +
+                            </button>
+                    </td>
+                    <td rowspan="2" style="width: 40%;">
+
+                        <br />
+                        <textarea name="lista-compras" id="lista-compras" cols="15" rows="11">
+
+                    </textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>
+                            <br />
+                            <br />
+                            <center>
+                                <b style="text-align: center;">
+                                    Complementos
+                                </b>
+                            </center>
+                            <br />
+
+                            <input type="radio" id="movel-luminaria" name="complementos" style="text-align: justify;">
+                            <label for="movel-luminaria">Movel + Luminária</label>
+                            <br />
+
+                            <input type="radio" id="luminaria" name="complementos" style="text-align: justify;">
+                            <label for="luminaria">Luminária</label>
+                            <br />
+
+                            <input type="radio" id="vidro" name="complementos" style="text-align: justify;">
+                            <label for="vidro">Só vidro</label>
+                            <br />
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <br />
+                        <input type="checkbox" id="presente" name="presente">
+                        <label for="presente">Embrulhar para presente</label>
+                    </td>
+                    <td>
+                        <br />
+                        <label for="valor-total">Valor Total</label>
+                        <input type="number" id="valor-total" name="valor-total" style="width: 40px;">
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+    </form>
+</body>
+
+</html>

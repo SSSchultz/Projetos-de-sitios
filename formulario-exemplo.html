@@ -1,0 +1,125 @@
+<html>
+
+<head>
+    <title>Formularios</title>
+</head>
+
+<body>
+    <h1 aligtn="center">Exemplo de formulario</h1>
+    <br />
+    <form name="formexemplo" method="post" action="#" autocomplete="off">
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+            <p>
+                <label for="nome">Nome:</label>
+                <input type="text" name="nome" id="nome" required size="100" autofocus>
+                <br />
+            </p>
+            <p>
+                <label for="nome">Cidade:</label>
+                <input type="text" name="nome" id="nome" value="Jales" maxlength="20" required>
+                <br />
+            </p>
+            <p>
+                <label for="senha">Senha:</label>
+                <input type="password" name="senha" id="senha" required>
+            </p>
+        </fieldset>
+        <p>
+            <label for="dataida">Data de ida:</label>
+            <input type="date" name="dataida" id="dataida" min="2023-03-10">
+        </p>
+        <p>
+            <label for="datavolta">Data de volta:</label>
+            <input type="date" name="datavolta" id="datavolta" max="2023-03-28">
+        </p>
+        <p>
+            <label for="datahora">Data e hora:</label>
+            <input type="datetime-local" name="datahora" id="datahora">
+        </p>
+        <p>
+            <label for="idade">idade:</label>
+            <input type="number" name="idade" id="idade" min="0" max="200" step="0.1" disabled>
+        </p>
+        <p>
+            <label for="email">E-mail:</label>
+            <input type="email" name="email" id="email" placeholder="teste123@hotmail.com.br">
+        </p>
+        <p>
+            <label for="url">Site:</label>
+            <input type="url" name="url" id="url">
+        </p>
+        <p>
+            <label for="mesano">Mes e ano:</label>
+            <input type="month" name="mesano" id="mesano">
+        </p>
+        <p>
+            <label for="cor">Escolha a cor:</label>
+            <input type="color" name="cor" id="cor">
+        </p>
+        <p>
+            <label for="range">Escolha o nivel:</label>
+            <input type="range" name="range" id="range">
+        </p>
+        <p>
+            <label for="comentarios">Comentarios</label>
+            <br />
+            <textarea name="comentarios" id="comentarios" cols="10" rows="10">
+
+            </textarea>
+        </p>
+        <p>
+            Selecione o curso
+            <br />
+
+            <input type="radio" id="si" name="curso">
+            <label for="si">Sistemas para a internet</label>
+            <br />
+
+            <input type="radio" id="ads" name="curso">
+            <label for="ads">Analise e desenvolvimento de softwares</label>
+            <br />
+
+            <input type="radio" id="agro" name="curso">
+            <label for="agro">Agronegocio</label>
+            <br />
+
+            <input type="radio" id="ge" name="curso">
+            <label for="ge">Gestão empresarial</label>
+            <br />
+        </p>
+        <p>
+            <label for="navegador">Navegador</label>
+            <input list="navegador">
+            <datalist id="navegador">
+                <option value="Internet Explorer">
+                <option value="Opera">
+                <option value="Chrome">
+                <option value="Firefox">
+                <option value="Safari">
+            </datalist>
+        </p>
+        <p>
+            <label for="marcas">Selecione a marca</label>
+            <select id="marcas" name="marcas">
+                <option value="Fiat">Fiat</option>
+                <option value="Volk">Volkswagen</option>
+                <option value="Ford">Ford</option>
+                <option value="Chev">Chevrolet</option>
+                <option value="Honda">Honda</option>
+                <option value="Toyota">Toyota</option>
+            </select>
+        </p>
+        <p>
+            <label form="arquivo">
+                Selecionar arquivo
+            </label>
+            <input type="file" id="arquivo" name="arquivo" multiple>
+        </p>
+        <p>
+            <input type="submit" name="enviar" value="enviar">
+        </p>
+    </form>
+</body>
+
+</html>
